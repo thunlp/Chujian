@@ -14,6 +14,28 @@ Chu bamboo slips (CBS, Chinese: 楚简, pronounced as *chujian*) is an ancient C
 
 All our datasets are provided at <https://huggingface.co/datasets/chen-yingfa/CHUBS>
 
+The data are sourced from the following.
+
+| **Source name**            | **Chinese name** | **# documents** | **# slips** | **# characters** |
+|----------------------------|------------------|-----------------|-------------|------------------|
+| Tsinghua University Slips   | 清华简           | 50              | 1,402       | 31,468           |
+| Shanghai Museum Slips       | 上博简           | 60              | 881         | 25,795           |
+| Baoshan Slips               | 包山简           | 4               | 337         | 12,647           |
+| Guodian Slips               | 郭店简           | 18              | 705         | 11,865           |
+| Geling Slips                | 葛陵简           | 8               | 743         | 6,209            |
+| Zenghouyi Slips             | 曾侯乙简         | 4               | 198         | 6,016            |
+| Jiudian Slips               | 九店简           | 2               | 232         | 2,956            |
+| Wangshan Slips              | 望山简           | 3               | 273         | 2,218            |
+| Changtaiguan Slips          | 长台关简         | 3               | 148         | 1,504            |
+| Zidanku Silk                | 子弹库帛         | 7               | 7           | 1,471            |
+| Yangtianhu Slips            | 仰天湖简         | 1               | 42          | 335              |
+| Wulipai Slips               | 五里牌简         | 1               | 18          | 109              |
+| Xiyangpo Slips              | 夕阳坡简         | 1               | 2           | 54               |
+| Ynagjiawan Slips            | 杨家湾简         | 1               | 38          | 41               |
+| Caojiagang Slips            | 曹家岗简         | 1               | 7           | 34               |
+| **Total**                   |                  | **164**         | **5,033**   | **102,722**      |
+
+
 It contains the following two parts.
 
 1. The main dataset (CHUBS). Each example is an image of a CBS character and the correponding label. The label is the name of the directory that the image file belongs to.
@@ -36,7 +58,7 @@ CHUBS is contained within the `glyphs.zip` file while the latter is under the di
 
 ## Experiments
 
-This repo contains three sets of experiments, each under its own directory.
+This repo contains three sets of experiments, the code of each experiment is under its own directory.
 
 1. [Character Recognition](char-recognition/README.md)
 2. [Sub-Character Component Recognition](subchar-recognition/README.md)

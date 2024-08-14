@@ -14,10 +14,32 @@
 
 我们所有的数据集都提供在 [🤗 Datasets](https://huggingface.co/datasets/chen-yingfa/CHUBS)。
 
+数据的来源如下：
+
+| **英文名**            | **中文名** | **文章数量** | **条数** | **字数量** |
+|----------------------------|------------------|-----------------|-------------|------------------|
+| Tsinghua University Slips   | 清华简           | 50              | 1,402       | 31,468           |
+| Shanghai Museum Slips       | 上博简           | 60              | 881         | 25,795           |
+| Baoshan Slips               | 包山简           | 4               | 337         | 12,647           |
+| Guodian Slips               | 郭店简           | 18              | 705         | 11,865           |
+| Geling Slips                | 葛陵简           | 8               | 743         | 6,209            |
+| Zenghouyi Slips             | 曾侯乙简         | 4               | 198         | 6,016            |
+| Jiudian Slips               | 九店简           | 2               | 232         | 2,956            |
+| Wangshan Slips              | 望山简           | 3               | 273         | 2,218            |
+| Changtaiguan Slips          | 长台关简         | 3               | 148         | 1,504            |
+| Zidanku Silk                | 子弹库帛         | 7               | 7           | 1,471            |
+| Yangtianhu Slips            | 仰天湖简         | 1               | 42          | 335              |
+| Wulipai Slips               | 五里牌简         | 1               | 18          | 109              |
+| Xiyangpo Slips              | 夕阳坡简         | 1               | 2           | 54               |
+| Ynagjiawan Slips            | 杨家湾简         | 1               | 38          | 41               |
+| Caojiagang Slips            | 曹家岗简         | 1               | 7           | 34               |
+| **总和**                   |                  | **164**         | **5,033**   | **102,722**      |
+
+
 数据集包含以下两部分：
 
 1. 主数据集 （CHUBS）。每个样本是一个楚简字的图片和其对应的标签。标签是图片文件所属目录的名称。
-2. 一个楚简的词性标注 (POS tagging) 数据集。
+2. 一个楚简的词性标注（POS tagging）数据集。
 
 文件结构如下：
 
@@ -36,7 +58,7 @@ CHUBS 数据集包含在 `glyphs.zip` 文件中，而后者位于目录 `pos-tag
 
 ## 实验
 
-此代码库包含了三组实验，每组实验位于各自的目录中。
+此代码库包含了三组实验，每组实验的代码位于各自的目录中。
 
 1. [字符识别](char-recognition/README.md)
 2. [子字符组件识别](subchar-recognition/README.md)
