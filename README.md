@@ -8,7 +8,7 @@
 
 This repository contains the official code for the paper [Multi-Modal Multi-Granularity Tokenizer for Chu Bamboo Slips (Upcoming link)](https://arxiv.org/abs/).
 
-Chu bamboo slips (CBS, Chinese: 楚简, pronounced as *chujian*) is a script used during the Spring and Autumn period of Ancient China over 2,000 years ago. The study of which hold great significant value for understanding the history and culture of Ancient China. We scraped, processed, annotated, and then released the first large-scale dataset for machine learning community. It is named CHUBS, and contains over 100K annotated CBS characters. Additionally, we propose a novel multi-model multi-granularity tokenizer tailored for handling the large number of out-of-vocabulary characters in CBS (characters that have no modern Chinese equivalence).
+Chu bamboo slips (CBS, Chinese: 楚简, pronounced as *chujian*) is an ancient Chinese script used during the Spring and Autumn period over 2,000 years ago. The study of which hold great significant value for understanding the history and culture of Ancient China. We scraped, processed, annotated, and then released the first large-scale dataset for machine learning community. It is named CHUBS, and contains over 100K annotated CBS characters. Additionally, we propose a novel multi-model multi-granularity tokenizer tailored for handling the large number of out-of-vocabulary characters in CBS (characters that have no modern Chinese equivalence).
 
 ## Data
 
@@ -42,3 +42,6 @@ This repo contains three sets of experiments, each under its own directory.
 2. [Sub-Character Component Recognition](subchar-recognition/README.md)
 3. [POS Tagging](pos-tagging/README.md)
 
+## Copyright Concerns
+
+As mentioned in the paper, the main CHUBS dataset is extracted and processed from existing openly available textbooks and quality-checked by our team. Compiling and analyzing such data is a common practice within the paleography field in ancient Chinese script, and we have consulted with legal experts to make sure that this data can be released under a permissive license such as Apache 2.0. The POS tagging data is annotated by our team, and also has no legal concerns related to its usage.
