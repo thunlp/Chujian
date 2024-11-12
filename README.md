@@ -1,12 +1,12 @@
 # Chujian 楚简
 
 <div align="center">
-    <a href="https://huggingface.co/datasets/chen-yingfa/CHUBS">🤗 Datasets</a> | Paper (Upcoming) | <a href="./README_ZH.md">Chinese</a>
+    <a href="https://huggingface.co/datasets/chen-yingfa/CHUBS">🤗 Datasets</a> | <a href="https://arxiv.org/abs/2409.01011v1">Paper</a> | <a href="./README_ZH.md">Chinese</a>
 </div>
 
 <br>
 
-This repository contains the official code for the paper [Multi-Modal Multi-Granularity Tokenizer for Chu Bamboo Slips (Upcoming link)](https://arxiv.org/abs/).
+This repository contains the official code for the paper [Multi-Modal Multi-Granularity Tokenizer for Chu Bamboo Slips](https://arxiv.org/abs/2409.01011v1).
 
 Chu bamboo slips (CBS, Chinese: 楚简, pronounced as *chujian*) is an ancient Chinese script used during the Spring and Autumn period over 2,000 years ago. The study of which hold great significant value for understanding the history and culture of Ancient China. We scraped, processed, annotated, and then released the first large-scale dataset for machine learning community. It is named CHUBS, and contains over 100K annotated CBS characters. Additionally, we propose a novel multi-model multi-granularity tokenizer tailored for handling the large number of out-of-vocabulary characters in CBS (characters that have no modern Chinese equivalence).
 
